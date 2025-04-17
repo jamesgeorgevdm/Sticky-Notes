@@ -1,0 +1,104 @@
+/* Imported Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #085f52;
+    margin: 0;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #085f52;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.action_details {
+    background-color: #ffffff;
+    color: #085f52;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #085f52;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00332b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#post_title {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+#post_content, #created_at {
+    color: rgb(255, 255, 255);
+    padding-bottom: 25px;
+}
+
+li {
+    display: inline-block; 
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#post_info {
+    display: inline-block; 
+    background: #0c8775; 
+    padding: 10px; 
+    margin-bottom: 30px; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+form {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
